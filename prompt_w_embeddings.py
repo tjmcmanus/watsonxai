@@ -8,8 +8,11 @@ This example shows a simple Q&A use case without comprehensive prompt tuning.
 IMPORTANT: Be aware of the disk space that will be taken up by documents when they're loaded into
 ChromaDB on your laptop. The size in chroma will likely be the same as .txt file size
  
+ pip install ibm-generative-ai
+ pip install "ibm-generative-ai[langchain]"
+ pip install sentence_transformers
  pip install chromadb
- pip install
+ 
 """
 import os
 import chromadb
